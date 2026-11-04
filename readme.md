@@ -18,24 +18,6 @@ PizzasV2
 └── package.json
 ```
 
-## Cómo ejecutarlo
-
-1. Instalar las dependencias:
-
-   ```
-   npm install
-   ```
-
-2. Levantar el servidor:
-
-   ```
-   npm run dev
-   ```
-
-   (o `npm start` si no se quiere usar nodemon)
-
-3. El API queda en `http://localhost:3000`.
-
 ## Endpoints
 
 | Método | Ruta | Qué hace | Respuesta |
