@@ -59,3 +59,11 @@ Ejemplo de body para POST y PUT:
 
 - **Postman:** importar los dos archivos de la carpeta `postman`, elegir el ambiente `dev` y correr la colección. Los request van en orden: agrega una pizza, la consulta, la actualiza y la borra.
 - **VS Code:** con la extensión REST Client abrir el archivo `.http` y darle "Send Request" a cada petición.
+
+## Resultado de las pruebas en Postman
+
+Se corrió la colección completa con el ambiente `dev`: 7 pruebas pasadas, 0 fallidas.
+
+![Resultado Postman 1](capturas/postman-1.png)
+
+![Resultado Postman 2](capturas/postman-2.png)
