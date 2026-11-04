@@ -1,0 +1,31 @@
+@baseUrl=http://localhost:3000
+
+### Lista de pizzas
+GET {{baseUrl}}/api/v1/pizzas
+
+### Una pizza por id
+GET {{baseUrl}}/api/v1/pizzas/1
+
+### Agregar pizza
+POST {{baseUrl}}/api/v1/pizzas
+Content-Type: application/json
+
+{
+  "nombre": "Pepperoni",
+  "descripcion": "Pepperoni y queso"
+}
+
+### Actualizar pizza
+PUT {{baseUrl}}/api/v1/pizzas/2
+Content-Type: application/json
+
+{
+  "nombre": "Mexicana",
+  "descripcion": "Jalapeño, chorizo y carne molida"
+}
+
+### Borrar pizza
+DELETE {{baseUrl}}/api/v1/pizzas/1
+
+### Pizza que no existe (debe dar 404)
+GET {{baseUrl}}/api/v1/pizzas/999
